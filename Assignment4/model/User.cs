@@ -8,13 +8,14 @@ namespace Assignment4.model
 {
     internal class User
     {
-        static int TotalLoggedInUsers = 32;
+        static int TotalLoggedInUsers = 0;
         int id;
         string name;
         public User(int id, string name)
         {
             this.id = id;
             this.name = name;
+            TotalLoggedInUsers++;
         }
         public int GetTotalLoggedInUsers()
         {
