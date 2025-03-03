@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E27B450E-75E5-4C40-96DA-CBB3E5742A44}|Assignment7\\Assignment7.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment7\\repository\\getfilteredproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27B450E-75E5-4C40-96DA-CBB3E5742A44}|Assignment7\\Assignment7.csproj|solutionrelative:assignment7\\repository\\getfilteredproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\model\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\model\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E27B450E-75E5-4C40-96DA-CBB3E5742A44}|Assignment7\\Assignment7.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27B450E-75E5-4C40-96DA-CBB3E5742A44}|Assignment7\\Assignment7.csproj|solutionrelative:assignment7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\model\\workshope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\model\\workshope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E27B450E-75E5-4C40-96DA-CBB3E5742A44}|Assignment7\\Assignment7.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment7\\model\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27B450E-75E5-4C40-96DA-CBB3E5742A44}|Assignment7\\Assignment7.csproj|solutionrelative:assignment7\\model\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\model\\bankcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\model\\bankcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E27B450E-75E5-4C40-96DA-CBB3E5742A44}|Assignment7\\Assignment7.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment7\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27B450E-75E5-4C40-96DA-CBB3E5742A44}|Assignment7\\Assignment7.csproj|solutionrelative:assignment7\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "University.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\University.cs",
-              "RelativeDocumentMoniker": "Assignment6\\model\\University.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\University.cs",
-              "RelativeToolTip": "Assignment6\\model\\University.cs",
-              "ViewState": "AgIAABkAAACA/v////8vwCEAAABDAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment7\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment7\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment7\\Program.cs",
+              "RelativeToolTip": "Assignment7\\Program.cs",
+              "ViewState": "AgIAABoAAADAzczMzMwXwCUAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T05:02:06.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WorkShope.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\WorkShope.cs",
-              "RelativeDocumentMoniker": "Assignment6\\model\\WorkShope.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\WorkShope.cs",
-              "RelativeToolTip": "Assignment6\\model\\WorkShope.cs",
-              "ViewState": "AgIAAAgAAAAAtDIzMzPDvw0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T04:55:03.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Student.cs",
-              "RelativeDocumentMoniker": "Assignment6\\model\\Student.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Student.cs",
-              "RelativeToolTip": "Assignment6\\model\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T04:45:09.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Customer.cs",
-              "RelativeDocumentMoniker": "Assignment6\\model\\Customer.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Customer.cs",
-              "RelativeToolTip": "Assignment6\\model\\Customer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvxYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T12:55:25.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Bankcs.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Bankcs.cs",
-              "RelativeDocumentMoniker": "Assignment6\\model\\Bankcs.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Bankcs.cs",
-              "RelativeToolTip": "Assignment6\\model\\Bankcs.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T12:51:23.859Z",
+              "WhenOpened": "2025-03-03T12:51:49.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\Program.cs",
-              "RelativeDocumentMoniker": "Assignment6\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\Program.cs",
-              "RelativeToolTip": "Assignment6\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
+              "Title": "GetFilteredProducts.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment7\\repository\\GetFilteredProducts.cs",
+              "RelativeDocumentMoniker": "Assignment7\\repository\\GetFilteredProducts.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment7\\repository\\GetFilteredProducts.cs",
+              "RelativeToolTip": "Assignment7\\repository\\GetFilteredProducts.cs",
+              "ViewState": "AgIAAAYAAAAI/////98ywAYAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T11:43:49.68Z",
+              "WhenOpened": "2025-03-03T12:17:46.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment7\\model\\Products.cs",
+              "RelativeDocumentMoniker": "Assignment7\\model\\Products.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment7\\model\\Products.cs",
+              "RelativeToolTip": "Assignment7\\model\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgvQ0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T12:14:27.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment7\\model\\Product.cs",
+              "RelativeDocumentMoniker": "Assignment7\\model\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment7\\model\\Product.cs",
+              "RelativeToolTip": "Assignment7\\model\\Product.cs",
+              "ViewState": "AgIAAAIAAAAYMzMzMzM7wA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T12:10:21.106Z",
               "EditorCaption": ""
             }
           ]
