@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E6BD3FC-27C1-4DAE-932C-CA09A73960B0}|Assignment4\\Assignment4.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E6BD3FC-27C1-4DAE-932C-CA09A73960B0}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\model\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\model\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\model\\workshope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\model\\workshope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\model\\bankcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\model\\bankcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment6\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AAD673A-C188-4488-A161-414DAE9FF2E5}|Assignment6\\Assignment6.csproj|solutionrelative:assignment6\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "University.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\University.cs",
+              "RelativeDocumentMoniker": "Assignment6\\model\\University.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\University.cs",
+              "RelativeToolTip": "Assignment6\\model\\University.cs",
+              "ViewState": "AgIAABkAAACA/v////8vwCEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T05:02:06.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkShope.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\WorkShope.cs",
+              "RelativeDocumentMoniker": "Assignment6\\model\\WorkShope.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\WorkShope.cs",
+              "RelativeToolTip": "Assignment6\\model\\WorkShope.cs",
+              "ViewState": "AgIAAAgAAAAAtDIzMzPDvw0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T04:55:03.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Student.cs",
+              "RelativeDocumentMoniker": "Assignment6\\model\\Student.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Student.cs",
+              "RelativeToolTip": "Assignment6\\model\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T04:45:09.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Customer.cs",
+              "RelativeDocumentMoniker": "Assignment6\\model\\Customer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Customer.cs",
+              "RelativeToolTip": "Assignment6\\model\\Customer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T12:55:25.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bankcs.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Bankcs.cs",
+              "RelativeDocumentMoniker": "Assignment6\\model\\Bankcs.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\model\\Bankcs.cs",
+              "RelativeToolTip": "Assignment6\\model\\Bankcs.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T12:51:23.859Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment4\\Program.cs",
-              "RelativeDocumentMoniker": "Assignment4\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment4\\Program.cs",
-              "RelativeToolTip": "Assignment4\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAKDMzMzPjvw0AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment6\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment6\\Program.cs",
+              "RelativeToolTip": "Assignment6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:00:59.568Z",
+              "WhenOpened": "2025-02-28T11:43:49.68Z",
               "EditorCaption": ""
             }
           ]
