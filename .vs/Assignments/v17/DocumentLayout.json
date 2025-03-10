@@ -46,8 +46,7 @@
               "RelativeToolTip": "Assignment8\\Exception\\Invalid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:03:40.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T11:03:40.419Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Assignment8\\Program.cs",
               "ViewState": "AgIAAK0AAAAAuv////8NwLwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:30:11.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T08:30:11.558Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Assignment8\\Repository\\PolicyAction.cs",
               "ViewState": "AgIAAH0AAACAZWZmZmYuwLIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T12:20:54.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T12:20:54.12Z"
             },
             {
               "$type": "Document",
@@ -83,7 +80,7 @@
               "RelativeDocumentMoniker": "Assignment8\\Interface\\IPolicy.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Interface\\IPolicy.cs",
               "RelativeToolTip": "Assignment8\\Interface\\IPolicy.cs",
-              "ViewState": "AgIAAAIAAABgmZmZmZkqwA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAABgmZmZmZkqwAsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T10:30:23.286Z",
               "EditorCaption": ""
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Assignment8\\Repository\\LoginAndRegister.cs",
               "ViewState": "AgIAAAwAAACAhGZmZuYawBYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:56:46.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T08:56:46.319Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "Assignment8\\Interface\\ILoginAndRegister.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:54:54.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T08:54:54.207Z"
             }
           ]
         }

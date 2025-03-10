@@ -10,6 +10,5 @@ namespace Assignment8.Interface
         public bool UpdatePolicyById(int customerId, int policyId);
         public bool DeletPolicy(int customerId, int policyId);
         public List<Policy> ShowActivePolicy(int customerId);
-
     }
 }
