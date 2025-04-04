@@ -1,0 +1,16 @@
+<div id="book-detail-comp">
+    <div id="book-detail-container">
+        <div>
+            <img src="bookCoverDefault.avif" alt="book-cover-img">
+        </div>
+        <div>
+            <p><span>Title :</span>{{book.title}}</p>
+            <p><span>Author :</span>{{book.author}}</p>
+            <p><span>Year :</span>{{book.publishedYear}}</p>
+            <!-- <p><span>Category:</span></p> -->
+            <!-- <p><span>Discription :</span></p> -->
+            <p><span>Count :</span>{{book.bookCount}}</p>
+            <input id="booking-btn" type="button" value="Borrow" (click)="borrowRequest(book.id)">
+        </div>
+    </div>
+</div>

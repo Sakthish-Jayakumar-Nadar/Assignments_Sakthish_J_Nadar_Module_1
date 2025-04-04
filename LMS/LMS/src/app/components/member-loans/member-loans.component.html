@@ -1,0 +1,25 @@
+<div id="request-comp">
+    <div>
+        <img src="new-side-scroll.png" alt="scroll-image">
+        <div id="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Book name</th>
+                        <th>Loan Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let loan of loans">
+                        <td>{{loan.bookId}}</td>
+                        <td>{{loan.bookName}}</td>
+                        <td *ngIf="loan.loanDate != undefined">{{loan.loanDate.split("T")[0]}}</td>
+                        <td><button class="login-form-btn"  (click)="returnBook(loan.bookId,loan.id,loan.memberId)">Return</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

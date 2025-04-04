@@ -1,0 +1,21 @@
+<div id="request-comp">
+    <div>
+        <img src="new-side-scroll.png" alt="scroll-image">
+        <div id="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Emails</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let member of members">
+                        <td>{{member.email}}</td>
+                        <td><button *ngIf="member.id != undefined" class="login-form-btn" (click)="goto(member.id)">Loaned</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

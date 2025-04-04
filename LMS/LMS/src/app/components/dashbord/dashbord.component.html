@@ -1,0 +1,11 @@
+<div id="dashbord-pg">
+    <div id="card-header">
+        Librarian's pick
+    </div>
+    <div id="card-container">
+        <figure class="card" *ngFor="let book of books" (click)="goTo(book.id)">
+            <img src="bookCoverDefault.avif" alt="default-book-cover">
+            <figcaption>{{book.title}}</figcaption>
+        </figure>
+    </div>
+</div>

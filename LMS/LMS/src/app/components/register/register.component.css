@@ -1,0 +1,52 @@
+#login-comp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 3.5rem);
+}
+#form-container{
+    width: 25rem;
+    height: 25rem;
+    background: url("../../../../public/ai-scroll-removebg-preview.png") center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-input{
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: transparent;
+    color: black;
+    border-width: 0 0 2px 0;
+    border-color: black;
+}
+.login-form-input:focus{
+    outline: none;
+}
+
+.login-form-btn{
+    display: block;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+}
+.login-form-btn:hover{
+    border: none;
+    color: rgb(224, 211, 187);
+    background-color: rgb(101, 67, 33);
+}
+.login-form-lable{
+    width: 90%;
+    height: 2rem;
+    font-size: 2rem;
+    color: black;
+}

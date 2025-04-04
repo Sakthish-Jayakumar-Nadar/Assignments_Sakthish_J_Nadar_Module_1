@@ -1,0 +1,18 @@
+<div id="login-comp">
+    <div id="form-container">
+        <form id="add-book-form" #addBookForm="ngForm" (ngSubmit)="addBook(addBookForm)">
+            <label class="add-form-lable">Add Book</label>
+            <input class="add-form-input" type="text" placeholder="Title" required #title="ngModel" name="title" [(ngModel)]="addModel.title"/>
+            <span *ngIf="title.invalid && title.touched" style="color: red;">Title required</span>
+            <input class="add-form-input" type="number" placeholder="Book count" required #bookCount="ngModel" name="bookCount" [(ngModel)]="addModel.bookCount"/>
+            <span *ngIf="bookCount.invalid && bookCount.touched" style="color: red;">Count required</span>
+            <input class="add-form-input" type="text" placeholder="Author" required #author="ngModel" name="author" [(ngModel)]="addModel.author"/>
+            <span *ngIf="author.invalid && author.touched" style="color: red;">Author required</span>
+            <input class="add-form-input" type="date" required #publishedYear="ngModel" name="publishedYear" [(ngModel)]="addModel.publishedYear"/>
+            <span *ngIf="publishedYear.invalid && publishedYear.touched" style="color: red;">Date required</span>
+            <input class="add-form-input" type="number" required #categoryId="ngModel" name="categoryId" [(ngModel)]="addModel.categoryId"/>
+            <span *ngIf="categoryId.invalid && categoryId.touched" style="color: red;">Category required</span>
+            <input class="login-form-btn" type="submit" value="Add"/>
+        </form>
+    </div>
+</div>

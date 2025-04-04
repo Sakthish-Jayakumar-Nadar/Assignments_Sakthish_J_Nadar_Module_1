@@ -1,0 +1,26 @@
+<div id="request-comp">
+    <div>
+        <img src="new-side-scroll.png" alt="scroll-image">
+        <div id="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Email</th>
+                        <th>Book name</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let loan of loans">
+                        <td>{{loan.email}}</td>
+                        <td>{{loan.bookName}}</td>
+                        <td *ngIf="loan.borrowRequestTime != undefined">{{loan.borrowRequestTime.split("T")[0]}}</td>
+                        <td *ngIf="loan.status != undefined && loan.status == 3"><span id="accept-btn" (click)="accept(loan.bookId,loan.id,loan.memberId)"><i class="fa-solid fa-check"></i></span><span id="cancle-btn" (click)="reject(loan.bookId,loan.id,loan.memberId)"><i class="fa-solid fa-xmark"></i></span></td>
+                        <td *ngIf="loan.status != undefined && loan.status != 3" [style.color]="status[loan.status][1]">{{status[loan.status][0]}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

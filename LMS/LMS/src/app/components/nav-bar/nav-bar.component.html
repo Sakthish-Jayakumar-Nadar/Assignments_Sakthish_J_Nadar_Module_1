@@ -1,0 +1,16 @@
+<div id="nav">
+    <div id="nav-logo"></div>
+    <div id="nav-links">
+        <a *ngIf="!isLogIn()" routerLink="/">Login</a>
+        <a *ngIf="!isLogIn()" routerLink="/register">Register</a>
+        <a *ngIf="isLogIn()" routerLink="/dashboard">Home</a>
+        <a *ngIf="isLogIn() && !isAdmin()" routerLink="/book/loaned">Loaned</a>
+        <a *ngIf="isLogIn() && !isAdmin()" routerLink="/book/returned">Returned</a>
+        <a *ngIf="isLogIn() && !isAdmin()" routerLink="/book/requests">Requested</a>
+        <a *ngIf="isLogIn() && isAdmin()" routerLink="/book/add">Add(Book)</a>
+        <a *ngIf="isLogIn() && isAdmin()" routerLink="/book/adminRequest">Requests</a>
+        <a *ngIf="isLogIn() && isAdmin()" routerLink="/book/adminLoan">Loan</a>
+        <a *ngIf="isLogIn() && isAdmin()" routerLink="/members">Members</a>
+        <a *ngIf="isLogIn()" (click)="logout()">Logout</a>
+    </div>
+</div>

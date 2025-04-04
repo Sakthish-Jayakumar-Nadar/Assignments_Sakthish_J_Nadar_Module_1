@@ -1,0 +1,23 @@
+<div id="request-comp">
+    <div>
+        <img src="new-side-scroll.png" alt="scroll-image">
+        <div id="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Book name</th>
+                        <th>Loan date</th>
+                        <th>Due date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let loan of loans">
+                        <td>{{loan.bookName}}</td>
+                        <td *ngIf="loan.loanDate != undefined">{{loan.loanDate.split("T")[0]}}</td>
+                        <td *ngIf="loan.dueDate != undefined">{{loan.dueDate.split("T")[0]}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+#book-detail-comp{
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+#book-detail-container{
+    min-width: 55rem;
+    /* min-height: 40rem; */
+    aspect-ratio: 1/0.55;
+    background: url("../../../../public/new-side-scroll.png") center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#book-detail-container img{
+    width: 10rem;
+    aspect-ratio: 1/1.4;
+    border-radius: 2rem;
+}
+#book-detail-container span{
+    color: black;
+    font-size: 1.5rem;
+}
+#book-detail-container p{
+    color: darkslategray;
+    font-size: 1.1rem;
+}
+#booking-btn{
+    display: block;
+    margin-top: 1rem;
+    width: 11rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+}
+#booking-btn:hover{
+    border: none;
+    color: rgb(224, 211, 187);
+    background-color: rgb(101, 67, 33);
+}

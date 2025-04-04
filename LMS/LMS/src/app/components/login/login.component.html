@@ -1,0 +1,12 @@
+<div id="login-comp">
+    <div id="form-container">
+        <form id="login-form" #loginForm="ngForm" (ngSubmit)="loginUser(loginForm)">
+            <label class="login-form-lable">Login</label>
+            <input class="login-form-input" type="email" placeholder="Email" required #email="ngModel" name="email" [(ngModel)]="loginModel.email"/>
+            <span *ngIf="email.invalid && email.touched" style="color: red;">Email required</span>
+            <input class="login-form-input" type="password" placeholder="Password" required #password="ngModel" name="password" [(ngModel)]="loginModel.password"/>
+            <span *ngIf="password.invalid && password.touched" style="color: red;">Password required</span>
+            <input class="login-form-btn" type="submit" value="Login"/>
+        </form>
+    </div>
+</div>

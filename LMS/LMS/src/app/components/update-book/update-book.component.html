@@ -1,0 +1,48 @@
+<div id="login-comp">
+    <div id="form-container">
+        <form [formGroup]="updateForm" (ngSubmit)="onSubmit()">
+            <div class="add-form-lable">Update Book</div>
+
+            <div>
+                <input id="id" formControlName="id" placeholder="Id" type="hidden" readonly required/>
+            </div>
+            
+            <div>
+              <input class="add-form-input" id="title" formControlName="title" placeholder="Title" type="text" />
+              <div *ngIf="updateForm.get('title')?.invalid && updateForm.get('title')?.touched" style="color: red;">
+                Title is required.
+              </div>
+            </div>
+          
+            <div>
+              <input class="add-form-input" id="bookCount" formControlName="bookCount" placeholder="Book Count" type="number" />
+              <div *ngIf="updateForm.get('bookcount')?.invalid && updateForm.get('bookCount')?.touched" style="color: red;">
+                Count is required.
+              </div>
+            </div>
+          
+            <div>
+                <input class="add-form-input" id="author" formControlName="author" placeholder="Author" type="author" />
+              <div *ngIf="updateForm.get('author')?.invalid && updateForm.get('author')?.touched" style="color: red;">
+                Author is required.
+              </div>
+            </div>
+
+            <div>
+                <input class="add-form-input" id="publishedYear" formControlName="publishedYear" placeholder="Published Year" type="publishedYear" />
+              <div *ngIf="updateForm.get('publishedYear')?.invalid && updateForm.get('publishedYear')?.touched" style="color: red;">
+                Year is required.
+              </div>
+            </div>
+
+            <div>
+                <input class="add-form-input" id="categoryId" formControlName="categoryId" placeholder="CategoryId" type="number" />
+                <div *ngIf="updateForm.get('categoryId')?.invalid && updateForm.get('categoryId')?.touched" style="color: red;">
+                    CategoryId is required.
+                </div>
+            </div>
+          
+            <button class="login-form-btn" type="submit" [disabled]="updateForm.invalid">Update</button>
+          </form>
+    </div>
+</div>

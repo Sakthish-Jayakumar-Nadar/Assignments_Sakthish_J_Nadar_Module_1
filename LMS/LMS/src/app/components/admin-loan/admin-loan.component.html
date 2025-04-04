@@ -1,0 +1,23 @@
+<div id="login-comp">
+    <div id="form-container">
+        <form [formGroup]="updateForm" (ngSubmit)="onSubmit()">
+            <div class="add-form-lable">Loan Book</div>
+            
+            <div>
+              <input class="add-form-input" id="email" formControlName="email" placeholder="Email" type="text" />
+              <div *ngIf="updateForm.get('email')?.invalid && updateForm.get('email')?.touched" style="color: red;">
+                Email is required.
+              </div>
+            </div>
+          
+            <div>
+              <input class="add-form-input" id="id" formControlName="id" placeholder="Book id" type="number" />
+              <div *ngIf="updateForm.get('id')?.invalid && updateForm.get('id')?.touched" style="color: red;">
+                Book id is required.
+              </div>
+            </div>
+                    
+            <button class="login-form-btn" type="submit" [disabled]="updateForm.invalid">Loan</button>
+          </form>
+    </div>
+</div>
