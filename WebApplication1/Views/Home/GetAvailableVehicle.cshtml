@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebApplication1.Models.VehicleModel>
+@using WebApplication1.Enums
+
+@{
+    ViewData["Title"] = "GetAvailableVehicle";
+    string noDataMessage = TempData["NoDataMessage"] as string;
+    string errorMessage = TempData["ErrorMessage"] as string;
+}
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <h1 class="text-center text-danger">Available vehicle</h1>
+}
+else
+{
+    
+    <h3 class="mx-2">Available vehicle</h3>
+
+    @if (!string.IsNullOrEmpty(noDataMessage))
+    {
+        <div class="text-center">
+            <h1>@noDataMessage</h1>
+        </div>
+    }
+    else
+    {
+        <div class="container">
+            <div class="d-flex flex-wrap">
+            @foreach (var item in Model)
+            {
+                    <div class="card shadow-lg p-3 mb-5 bg-white" style="width: 18rem; margin-right:1rem">
+                    <img src="/GetVehicleImage/@item.VehicleId" class="card-img-top" alt="Vehicle Image">
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-sm-12">
+                                @((VehicleType)item.Type)
+                            </dt>                            
+                            <dt class="col-sm-6">
+                                    <i class="fas fa-map-pin"></i>
+                                @((LocationType)item.Location)
+                            </dt>
+                            <dt class="col-sm-6">
+                                    @("₹ " + item.RentalPricePerDay)
+                            </dt>
+                            <dt class="col-sm-6">
+                                @if (item.IsAvailable)
+                                {
+                                    <span class="text-success">Available</span>
+                                }
+                                else
+                                {
+                                    <span class="text-danger">Un-available</span>
+                                }
+                            </dt>
+                            <dt class="col-sm-6">
+                                <a asp-action="VehicleDetail" asp-route-id="@item.VehicleId" class="btn btn-primary">Proceed</a>
+                            </dt>
+                        </dl>
+                    </div>
+                </div>
+            }
+            </div>
+        </div>
+    }
+}

@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment8\\interface\\ipolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|solutionrelative:assignment8\\interface\\ipolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment8\\repository\\policyaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|solutionrelative:assignment8\\repository\\policyaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment8\\exception\\invalid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|solutionrelative:assignment8\\exception\\invalid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment8\\repository\\loginandregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|solutionrelative:assignment8\\repository\\loginandregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment8\\interface\\iloginandregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|solutionrelative:assignment8\\interface\\iloginandregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\assignment8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F89DD8E0-2DC9-49F1-B0A6-624BEC4D5A5C}|Assignment8\\Assignment8.csproj|solutionrelative:assignment8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BA16AE4-F9BC-4E6D-8934-7D10E16713F3}|WebApplication1\\WebApplication1.csproj|c:\\users\\user\\desktop\\dotnet\\module1\\assignments\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA16AE4-F9BC-4E6D-8934-7D10E16713F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Invalid.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Exception\\Invalid.cs",
-              "RelativeDocumentMoniker": "Assignment8\\Exception\\Invalid.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Exception\\Invalid.cs",
-              "RelativeToolTip": "Assignment8\\Exception\\Invalid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:03:40.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Program.cs",
-              "RelativeDocumentMoniker": "Assignment8\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Program.cs",
-              "RelativeToolTip": "Assignment8\\Program.cs",
-              "ViewState": "AgIAAK0AAAAAuv////8NwLwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:30:11.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PolicyAction.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Repository\\PolicyAction.cs",
-              "RelativeDocumentMoniker": "Assignment8\\Repository\\PolicyAction.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Repository\\PolicyAction.cs",
-              "RelativeToolTip": "Assignment8\\Repository\\PolicyAction.cs",
-              "ViewState": "AgIAAH0AAACAZWZmZmYuwLIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T12:20:54.12Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IPolicy.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Interface\\IPolicy.cs",
-              "RelativeDocumentMoniker": "Assignment8\\Interface\\IPolicy.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Interface\\IPolicy.cs",
-              "RelativeToolTip": "Assignment8\\Interface\\IPolicy.cs",
-              "ViewState": "AgIAAAIAAABgmZmZmZkqwAsAAAA9AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAQAAAAgmZmZmRkmwAQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T10:30:23.286Z",
+              "WhenOpened": "2025-03-26T13:48:30.867Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginAndRegister.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Repository\\LoginAndRegister.cs",
-              "RelativeDocumentMoniker": "Assignment8\\Repository\\LoginAndRegister.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Repository\\LoginAndRegister.cs",
-              "RelativeToolTip": "Assignment8\\Repository\\LoginAndRegister.cs",
-              "ViewState": "AgIAAAwAAACAhGZmZuYawBYAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:56:46.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ILoginAndRegister.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Interface\\ILoginAndRegister.cs",
-              "RelativeDocumentMoniker": "Assignment8\\Interface\\ILoginAndRegister.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\DotNet\\module1\\Assignments\\Assignment8\\Interface\\ILoginAndRegister.cs",
-              "RelativeToolTip": "Assignment8\\Interface\\ILoginAndRegister.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:54:54.207Z"
             }
           ]
         }

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<WebApplication1.Models.BookingModel>
+@using WebApplication1.Enums
+
+@{
+    ViewData["Title"] = "BookingHistory";
+}
+
+<h3>Bookings</h3>
+<hr />
+<div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                Location
+            </th>
+            <th>
+                Start Date
+            </th>
+            <th>
+                End Date
+            </th>
+            <th>
+                Amount
+            </th>
+            <th>
+                Status
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) 
+        {
+            <tr>
+                <td>
+                    @((LocationType)item.StartLocation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalAmount)
+                </td>
+                <td>
+                    @((StatusType)item.Status)
+                </td>
+                <td>
+                    @if ((int)StatusType.Pending == item.Status && DateTime.Now < item.StartDate)
+                    {
+                        <a class="btn btn-danger" asp-action="CancelBooking" asp-route-id="@item.BookingId" asp-route-cancelType="@((int)StatusType.Canceled)" asp-route-redirectPage="BookingHistory"><i class="fas fa-times"></i></a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<WebApplication1.Models.VehicleModel>
+@using WebApplication1.Enums
+
+@{
+    ViewData["Title"] = "GetVehicleForUser";
+}
+
+<h3>My vehicles</h3>
+<hr />
+
+<div class="container">
+    <div class="d-flex flex-wrap">
+        @foreach (var item in Model)
+        {
+            <div class="card shadow-lg p-3 mb-5 bg-white" style="width: 18rem; margin-right:1rem">
+                <img src="/GetVehicleImage/@item.VehicleId" class="card-img-top" alt="Vehicle Image">
+                <div class="card-body">
+                    <dl class="row">                        
+                        <dt class="col-sm-4">
+                            <a asp-action="DeleteVehicleForUser" asp-route-id="@item.VehicleId" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i></a>
+                        </dt>
+                        <dt class="col-sm-4">
+                            <a asp-action="UpdateVehicle" asp-route-id="@item.VehicleId" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></a>
+                        </dt>
+                        <dt class="col-sm-4">
+                            <a asp-action="VehicleInfo" asp-route-id="@item.VehicleId" class="btn btn-success"><i class="fa-solid fa-eye"></i></a>
+                        </dt>
+                    </dl>
+                </div>
+            </div>
+        }
+    </div>
+</div>

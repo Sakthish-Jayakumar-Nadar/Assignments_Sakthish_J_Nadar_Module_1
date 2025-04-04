@@ -1,0 +1,59 @@
+﻿@model IEnumerable<WebApplication1.Models.BookingModel>
+@using WebApplication1.Enums
+
+@{
+    ViewData["Title"] = "RequestHistory";
+}
+
+<h3>Requests</h3>
+<hr />
+<div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                Location
+            </th>
+            <th>
+                Start Date
+            </th>
+            <th>
+                End Date
+            </th>
+            <th>
+                Amount
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @((LocationType)item.StartLocation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalAmount)
+                </td>
+                <td>
+                    @if (DateTime.Now < item.StartDate && (int)StatusType.Pending == item.Status)
+                    {
+                            <a class="btn btn-success" asp-action="CancelBooking" asp-route-id="@item.BookingId" asp-route-cancelType="@((int)StatusType.Approved)" asp-route-redirectPage="RequestHistory"><i class="fas fa-check"></i></a>
+                        <a class="btn btn-danger" asp-action="CancelBooking" asp-route-id="@item.BookingId" asp-route-cancelType="@((int)StatusType.Rejected)" asp-route-redirectPage="RequestHistory"><i class="fas fa-times"></i></a>
+                    }
+                    else
+                    {
+                        @((StatusType)item.Status)
+                    }
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

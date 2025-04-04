@@ -1,0 +1,80 @@
+﻿@model WebApplication1.Models.VehicleModel
+@using WebApplication1.Enums
+
+@{
+    ViewData["Title"] = "VehicleDetail";
+}
+
+<h3>Vehicle Detail</h3>
+<hr />
+<div>
+    <div class="container my-2">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img src="/GetVehicleImage/@Model.VehicleId" alt="Car Image" class="img-fluid rounded" />
+            </div>
+            <div class="col-md-8">
+                <dl class="row">
+                    <dt class="col-sm-4">
+                        Owern Name
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.User.Name)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Model)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Model)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Brand)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Brand)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Type)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @((VehicleType)Model.Type)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Location)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @((LocationType)Model.Location)
+                    </dd>
+                    <dt class="col-sm-4">
+                        Price/Day
+                    </dt>
+                    <dd class="col-sm-8">
+                        Rs. @Html.DisplayFor(model => model.RentalPricePerDay)
+                    </dd>
+                    <dt class="col-sm-4">
+                        Total price
+                    </dt>
+                    <dd class="col-sm-8">
+
+                    </dd>
+                    <dt class="col-sm-4">
+                        Status
+                    </dt>
+                    <dd class="col-sm-8">
+                        @if (Model.IsAvailable)
+                        {
+                            <span class="text-success">Available</span>
+                        }
+                        else
+                        {
+                            <span class="text-danger">Un-available</span>
+                        }
+                    </dd>
+                    <dt class="col-sm-4">
+                        <a asp-action="CreateBooking" asp-route-id="@Model.VehicleId" asp-route-price="@Model.RentalPricePerDay" class="btn btn-primary">Rent now</a>
+                    </dt>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+﻿@model WebApplication1.Models.LoginUserModel
+
+@{
+    ViewData["Title"] = "Index";
+    string errorMessage = TempData["ErrorMessage"] as string;
+    string redirectUrl = TempData["RedirectUrl"] as string;
+}
+<div class="container my-5">
+    <div class="d-flex justify-content-center">
+        <div class="card shadow-lg p-3 mb-5 bg-white" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Login Form</h5>
+                <form asp-action="Index">
+                    @if (!string.IsNullOrEmpty(errorMessage))
+                    {
+                        <div class="text-danger">
+                            <p>@errorMessage</p>
+                        </div>
+                    }
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        @if (!string.IsNullOrEmpty(redirectUrl))
+                        {
+                            <input class="d-none" name="redirect" id="redirect" value="@redirectUrl" />
+                        }
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" type="password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <input type="submit" value="Login" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
